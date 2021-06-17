@@ -1,0 +1,240 @@
+$colco:#fff;
+$daohanlan: #b2b3b8;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ebeff2;
+}
+// 动画特效控制
+@keyframes rotateA {
+    25% {
+        transform: rotate(90deg);
+    }                
+    50%{
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+#btn{
+    width: 97%;
+    margin:auto 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    #daohan{
+        width: 15%;
+        height: 1300px;
+        float: left;
+        background-color: #fff;
+        ul{
+            padding:0px 15px;
+            font-size: 14px;
+            font-weight: bold;
+            color: $daohanlan;
+            display: run-in;
+            li{
+                list-style: none;
+                padding: 16px 0px;
+                border-bottom: 2px solid #ebeff2;
+                a{
+                    text-decoration: none;
+                    color: $daohanlan;
+                    i{
+                        font-size: 18px;
+                    }
+                    span{
+                        padding-left: 8px;
+                    }
+                }
+                .daohan-li0{
+                    display: flex;
+                    color: #2a333c;
+                    padding: 0px 2px 5px;
+                    flex-wrap: nowrap;
+                    align-items: flex-end;
+                    #logo{
+                        width: 23px;
+                        height: 22px;
+                        padding: 0px 9px;
+                        img{
+                            width: 22px;
+                            height: 22px;
+                            margin: 0 auto;
+                            // 动画特效
+                            animation: rotateA 4s ease infinite normal;
+                        }                   
+                    }
+                }
+                .daohan-box3{
+                    padding-bottom: 30px;
+                    i{
+                        font-size: 14px;
+                        color: #a8aaa7;
+                        font-family: "宋体";
+                        padding-left: 4px;
+                    }
+                }
+            }
+            .daohan-li1{
+                padding-top: 85px;
+            }
+            .daohan-li2{
+                i{
+                    font-size: 18px;
+                    color: #99c9d7;
+                }
+                span{
+                    padding-left: 8px;
+                }
+            }
+            .daohan-li3{
+                i{
+                    padding-left: 18px;
+                }
+            }
+        }
+    }
+    #ZhongTi{
+        float: left;
+        width: 85%;
+        font-family: "微软雅黑";
+        #white{
+            width: 99.99%;
+            height: 400px;
+            float: left;
+            background-image: linear-gradient(to right,#0a73e0,#20a4bd);
+            img{
+                width: 350px;
+                height: 360px;
+                float: right;
+                float: top;
+                padding-right: 80px;
+             }
+            #title{
+                margin: 30px 40px;
+                color: $colco;
+                ul{
+                    margin-top: 40px;
+                    a{
+                        text-decoration: none;
+                        color: $colco;
+                    }
+                }
+            }
+            .li-jianto{
+                color: #adfbff;
+                margin-top: 100px;
+                padding-left: 50px;
+                font-size: 35px;
+            }
+        }
+        #pink,#black,#headset,#function{
+            width: 50%;
+            height: 450px;
+            float: left;
+            display: block;
+            #box1,#box2{
+                color: $colco;
+                margin: 10px 40px;
+            }
+            #box3{
+                color: #6c737d;
+                margin: 10px 40px;
+            }
+        }
+        #pink{
+            background-image: linear-gradient(to right,#ff6ea2,#fa9464);
+            #box1{display: inline-block;}
+            .li-fa1{
+                color: #ffcddc;
+                padding-left: 50px;
+                font-size: 35px;
+            }
+            img{
+                display: block;
+                margin: 20px 0px 0px 100px;
+                width: 200px;
+                height: 250px;
+                padding-left: 25px;
+            }
+        }
+        #black{
+            background-color: #44377c;
+            #box2{display: inline-block;}
+            .li-fa2{
+                color: #7265aa;
+                padding-left: 50px;
+                font-size: 35px;
+            }
+            img{
+                display: block;
+                margin: 20px 0px 0px 100px;
+                width: 200px;
+                height: 247px;
+                padding-left: 25px;
+            }
+        }
+        #headset{
+            background-color: #e7ecf2;
+            #box3{display: inline-block;}
+            .li-fa3{
+                color: #a5aab0;
+                padding-top: 20px;
+                padding-left: 50px;
+                font-size: 35px;
+            }
+            img{
+                display: block;
+                margin: 20px 0px 0px 100px;
+                width: 200px;
+                height: 250px;
+                padding-left: 25px;
+            }
+        }
+        #function{
+            background-color: #f8f8f8;
+            #box4{
+                ul{
+                    list-style: none;
+                    li{
+                        height: 70px;
+                        line-height: 70px;
+                        margin: 5px auto;
+                        background-color: #fff;
+                        a{
+                            text-decoration: none;
+                            padding-left: 20px;
+                            i{
+                                color: #88b7d1;
+                            }
+                            span{
+                                padding-left: 20px;
+                                color: #bbb;
+                            }
+                            .li-fa{
+                                float: right;
+                                padding-right: 20px;
+                                padding-top: 25px;
+                                color: #c7c7c7;
+                            }
+                        }
+                        #leibao{
+                            color: #bbb;
+                            padding-left: 20px;
+                            text-overflow:ellipsis;
+                            overflow: hidden;
+                            white-space: nowrap;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

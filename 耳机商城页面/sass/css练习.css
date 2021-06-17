@@ -1,0 +1,284 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ebeff2;
+}
+
+@keyframes rotateA {
+  25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#btn {
+  width: 97%;
+  margin: auto 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#btn #daohan {
+  width: 15%;
+  height: 1300px;
+  float: left;
+  background-color: #fff;
+}
+
+#btn #daohan ul {
+  padding: 0px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b2b3b8;
+  display: run-in;
+}
+
+#btn #daohan ul li {
+  list-style: none;
+  padding: 16px 0px;
+  border-bottom: 2px solid #ebeff2;
+}
+
+#btn #daohan ul li a {
+  text-decoration: none;
+  color: #b2b3b8;
+}
+
+#btn #daohan ul li a i {
+  font-size: 18px;
+}
+
+#btn #daohan ul li a span {
+  padding-left: 8px;
+}
+
+#btn #daohan ul li .daohan-li0 {
+  display: flex;
+  color: #2a333c;
+  padding: 0px 2px 5px;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+#btn #daohan ul li .daohan-li0 #logo {
+  width: 23px;
+  height: 22px;
+  padding: 0px 9px;
+}
+
+#btn #daohan ul li .daohan-li0 #logo img {
+  width: 22px;
+  height: 22px;
+  margin: 0 auto;
+  animation: rotateA 4s ease infinite normal;
+}
+
+#btn #daohan ul li .daohan-box3 {
+  padding-bottom: 30px;
+}
+
+#btn #daohan ul li .daohan-box3 i {
+  font-size: 14px;
+  color: #a8aaa7;
+  font-family: "宋体";
+  padding-left: 4px;
+}
+
+#btn #daohan ul .daohan-li1 {
+  padding-top: 85px;
+}
+
+#btn #daohan ul .daohan-li2 i {
+  font-size: 18px;
+  color: #99c9d7;
+}
+
+#btn #daohan ul .daohan-li2 span {
+  padding-left: 8px;
+}
+
+#btn #daohan ul .daohan-li3 i {
+  padding-left: 18px;
+}
+
+#btn #ZhongTi {
+  float: left;
+  width: 85%;
+  font-family: "微软雅黑";
+}
+
+#btn #ZhongTi #white {
+  width: 99.99%;
+  height: 400px;
+  float: left;
+  background-image: linear-gradient(to right, #0a73e0, #20a4bd);
+}
+
+#btn #ZhongTi #white img {
+  width: 350px;
+  height: 360px;
+  float: right;
+  float: top;
+  padding-right: 80px;
+}
+
+#btn #ZhongTi #white #title {
+  margin: 30px 40px;
+  color: #fff;
+}
+
+#btn #ZhongTi #white #title ul {
+  margin-top: 40px;
+}
+
+#btn #ZhongTi #white #title ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#btn #ZhongTi #white .li-jianto {
+  color: #adfbff;
+  margin-top: 100px;
+  padding-left: 50px;
+  font-size: 35px;
+}
+
+#btn #ZhongTi #pink, #btn #ZhongTi #black, #btn #ZhongTi #headset, #btn #ZhongTi #function {
+  width: 50%;
+  height: 450px;
+  float: left;
+  display: block;
+}
+
+#btn #ZhongTi #pink #box1, #btn #ZhongTi #pink #box2, #btn #ZhongTi #black #box1, #btn #ZhongTi #black #box2, #btn #ZhongTi #headset #box1, #btn #ZhongTi #headset #box2, #btn #ZhongTi #function #box1, #btn #ZhongTi #function #box2 {
+  color: #fff;
+  margin: 10px 40px;
+}
+
+#btn #ZhongTi #pink #box3, #btn #ZhongTi #black #box3, #btn #ZhongTi #headset #box3, #btn #ZhongTi #function #box3 {
+  color: #6c737d;
+  margin: 10px 40px;
+}
+
+#btn #ZhongTi #pink {
+  background-image: linear-gradient(to right, #ff6ea2, #fa9464);
+}
+
+#btn #ZhongTi #pink #box1 {
+  display: inline-block;
+}
+
+#btn #ZhongTi #pink .li-fa1 {
+  color: #ffcddc;
+  padding-left: 50px;
+  font-size: 35px;
+}
+
+#btn #ZhongTi #pink img {
+  display: block;
+  margin: 20px 0px 0px 100px;
+  width: 200px;
+  height: 250px;
+  padding-left: 25px;
+}
+
+#btn #ZhongTi #black {
+  background-color: #44377c;
+}
+
+#btn #ZhongTi #black #box2 {
+  display: inline-block;
+}
+
+#btn #ZhongTi #black .li-fa2 {
+  color: #7265aa;
+  padding-left: 50px;
+  font-size: 35px;
+}
+
+#btn #ZhongTi #black img {
+  display: block;
+  margin: 20px 0px 0px 100px;
+  width: 200px;
+  height: 247px;
+  padding-left: 25px;
+}
+
+#btn #ZhongTi #headset {
+  background-color: #e7ecf2;
+}
+
+#btn #ZhongTi #headset #box3 {
+  display: inline-block;
+}
+
+#btn #ZhongTi #headset .li-fa3 {
+  color: #a5aab0;
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 35px;
+}
+
+#btn #ZhongTi #headset img {
+  display: block;
+  margin: 20px 0px 0px 100px;
+  width: 200px;
+  height: 250px;
+  padding-left: 25px;
+}
+
+#btn #ZhongTi #function {
+  background-color: #f8f8f8;
+}
+
+#btn #ZhongTi #function #box4 ul {
+  list-style: none;
+}
+
+#btn #ZhongTi #function #box4 ul li {
+  height: 70px;
+  line-height: 70px;
+  margin: 5px auto;
+  background-color: #fff;
+}
+
+#btn #ZhongTi #function #box4 ul li a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+#btn #ZhongTi #function #box4 ul li a i {
+  color: #88b7d1;
+}
+
+#btn #ZhongTi #function #box4 ul li a span {
+  padding-left: 20px;
+  color: #bbb;
+}
+
+#btn #ZhongTi #function #box4 ul li a .li-fa {
+  float: right;
+  padding-right: 20px;
+  padding-top: 25px;
+  color: #c7c7c7;
+}
+
+#btn #ZhongTi #function #box4 ul li #leibao {
+  color: #bbb;
+  padding-left: 20px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
